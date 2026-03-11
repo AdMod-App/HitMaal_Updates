@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>App Download</title>
+<title>My App</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -9,106 +9,129 @@
 
 body{
 margin:0;
-font-family:Arial;
-background:#f5f5f5;
-text-align:center;
+font-family:Roboto,Arial;
+background:#f1f3f4;
 }
 
 .header{
-background:#1e88e5;
-color:white;
+background:white;
 padding:20px;
+display:flex;
+align-items:center;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.icon{
+width:80px;
+border-radius:18px;
+margin-right:15px;
+}
+
+.app-info h1{
+margin:0;
 font-size:22px;
+}
+
+.app-info p{
+margin:3px 0;
+color:#666;
+}
+
+.download{
+background:#1db954;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+border-radius:6px;
+font-size:16px;
+display:inline-block;
+margin-top:10px;
 }
 
 .container{
 padding:20px;
-max-width:500px;
-margin:auto;
 }
 
-.card{
+.section{
 background:white;
-padding:20px;
+padding:15px;
 border-radius:10px;
-box-shadow:0 3px 8px rgba(0,0,0,0.2);
 margin-bottom:20px;
 }
 
-.app-icon{
-width:90px;
-border-radius:20px;
-}
-
-.download{
-background:#28a745;
-color:white;
-padding:14px 24px;
-display:inline-block;
-text-decoration:none;
-border-radius:8px;
-font-size:18px;
-margin-top:10px;
+.screenshots{
+display:flex;
+overflow-x:auto;
+gap:10px;
 }
 
 .screenshots img{
-width:100%;
+height:350px;
 border-radius:10px;
-margin-top:10px;
 }
 
-.changelog{
-text-align:left;
-font-size:14px;
+.changelog ul{
+padding-left:20px;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <div class="header">
-Download My App
-</div>
 
-<div class="container">
+<img src="icon.png" class="icon">
 
-<div class="card">
+<div class="app-info">
+<h1>My App Name</h1>
+<p>Version 1.2 • 15 MB</p>
 
-<img src="icon.png" class="app-icon">
-
-<h2>My App Name</h2>
-
-<p>Latest Version: 1.2</p>
-
-<a class="download" href="https://github.com/USERNAME/REPO/releases/download/app.apk">
+<a class="download" href="APK_LINK_HERE">
 Download APK
 </a>
 
 </div>
 
-<div class="card">
+</div>
 
-<h3>Screenshots</h3>
+<div class="container">
+
+<div class="section">
+
+<h2>Screenshots</h2>
 
 <div class="screenshots">
-<img src="screenshot1.jpg">
-<img src="screenshot2.jpg">
-<img src="screenshot3.jpg">
-</div>
+
+<img src="s1.jpg">
+<img src="s2.jpg">
+<img src="s3.jpg">
 
 </div>
 
-<div class="card changelog">
+</div>
 
-<h3>What's New</h3>
+<div class="section changelog">
+
+<h2>What's New</h2>
 
 <ul>
 <li>New UI improvements</li>
+<li>App update feature improved</li>
 <li>Bug fixes</li>
-<li>Faster loading speed</li>
-<li>Improved app updater</li>
+<li>Performance improvements</li>
 </ul>
+
+</div>
+
+<div class="section">
+
+<h2>About this App</h2>
+
+<p>
+This app provides fast access to our platform with a clean interface and automatic updates.
+</p>
 
 </div>
 
