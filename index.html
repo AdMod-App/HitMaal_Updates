@@ -155,9 +155,9 @@ fetch("version.json")
 .then(response => response.json())
 .then(data => {
 
-document.getElementById("version").innerText = data.version;
+document.getElementById("version").innerText = data.versionName;
 
-document.getElementById("downloadBtn").href = data.apk;
+document.getElementById("downloadBtn").href = data.apkUrl;
 
 });
 
