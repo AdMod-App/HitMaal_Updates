@@ -1,8 +1,8 @@
 {
-  "versionCode": 15,
-  "versionName": "1.5",
+  "versionCode": 16,
+  "versionName": "1.6",
   "forceUpdate": true,
-  "apkUrl": "https://github.com/Uttam833/HitMaal_Updates/releases/download/v1.5/HitMaal_V1.5.apk",
+  "apkUrl": "https://github.com/Uttam833/HitMaal_Updates/releases/download/v1.6/HitMaal_V1.6.apk",
   "changelog": [
     "Improved performance",
     "Bug fixes",
